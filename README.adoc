@@ -32,5 +32,3 @@ The examples are implemented as a set of easy to run tests, using JUnit (5). The
 
 == Building and Running the Examples
 You will need to install a Java 17 JDK.
-
-Support is provided for building and running the project using Gradle.
