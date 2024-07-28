@@ -28,23 +28,9 @@ introduced  in JDK 17.
 * *Sealed Classes* - See https://openjdk.java.net/jeps/409[JEP 409: Sealed Classes].
 
 == Source Code
-The examples are implemented as a set of easy to run tests, using JUnit (5). The source code for the examples can be
-found in the src/test/java folder.
-
-An explanation of the showcased language features, along with guidance on their usage, can be found in the Javadoc of
-each of the code examples. (See the commands for generating Javadoc below).
+The examples are implemented as a set of easy to run tests, using JUnit (5). The source code for the examples are in src/com/examples folder.
 
 == Building and Running the Examples
 You will need to install a Java 17 JDK.
 
 Support is provided for building and running the project using Gradle.
-
-=== Gradle
-The minimum required version of Gradle will be installed if you execute the build using the supplied Gradle wrapper
-script (./gradlew).
-
-To compile and run all the example tests, enter the  following command in the project's root folder:
-
-`./gradlew clean test`
-
-For more details of Gradle build support see build.gradle in the project's root folder.
