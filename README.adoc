@@ -1,0 +1,50 @@
+= Java 17 Examples
+:sectlinks:
+:sectnums:
+:sectnumlevels: 4
+:toclevels: 4
+
+== Purpose
+This project provides a set of runnable Java code examples illustrating new language features and APIs that have been
+introduced  in JDK 17.
+
+== Showcased Java Language Features
+
+1) Language Features Finalised in JDK 14 (March 2020) -
+
+* *Switch Expressions* - See https://openjdk.java.net/jeps/361[JEP 361: Switch Expressions].
+
+2) Language Features Finalised in JDK 15 (Sept 2020) -
+
+* *Text Blocks* - See https://openjdk.java.net/jeps/378[JEP 378: Text Blocks].
+
+3) Language Features Finalised in JDK 16 (March 2021) -
+
+* *Pattern Matching for instanceof* - See https://openjdk.java.net/jeps/394[JEP 394: Pattern Matching for instanceof].
+* *Records* - See https://openjdk.java.net/jeps/395[JEP 395: Records].
+
+4) Language Features Finalised in JDK 17 (Sept 2021) -
+
+* *Sealed Classes* - See https://openjdk.java.net/jeps/409[JEP 409: Sealed Classes].
+
+== Source Code
+The examples are implemented as a set of easy to run tests, using JUnit (5). The source code for the examples can be
+found in the src/test/java folder.
+
+An explanation of the showcased language features, along with guidance on their usage, can be found in the Javadoc of
+each of the code examples. (See the commands for generating Javadoc below).
+
+== Building and Running the Examples
+You will need to install a Java 17 JDK.
+
+Support is provided for building and running the project using Gradle.
+
+=== Gradle
+The minimum required version of Gradle will be installed if you execute the build using the supplied Gradle wrapper
+script (./gradlew).
+
+To compile and run all the example tests, enter the  following command in the project's root folder:
+
+`./gradlew clean test`
+
+For more details of Gradle build support see build.gradle in the project's root folder.
